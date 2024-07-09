@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: labels
+  name: env-test
   labels:
     course: k8
     tainee: Nishith
