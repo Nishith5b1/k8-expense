@@ -1,0 +1,13 @@
+kind: pod
+apiVersion: v1
+metadata:
+  name: labels
+  labels:
+    course: k8
+    tainee: Nishith
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+
+
