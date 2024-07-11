@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiversion: v1
+metadata:
+  name: nishith_kube
+data:
+  course: "Kuberntes"
+  trainer: "nishith"
+  git: "https://github.com"
