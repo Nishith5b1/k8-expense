@@ -1,0 +1,19 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nginxconfig
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    - name: jfrog
+      valueFrom:
+        configMapKeyRef:
+          name:  nishithkube
+          key: course
+    - name: traine
+      valueFrom:
+        configMapKeyRef:
+          name: nishithkube
+          key: trainer
